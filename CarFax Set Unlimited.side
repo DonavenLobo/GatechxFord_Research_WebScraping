@@ -1,0 +1,174 @@
+{
+  "id": "fc461bf6-8387-47c2-9da4-abc41ce52cf2",
+  "version": "2.0",
+  "name": "CarFa Scraper",
+  "url": "https://www.carfax.com/Used-Ford-Mustang-Mach-E-Atlanta-GA_w9809_c16158",
+  "tests": [{
+    "id": "dc3b2d54-3829-409f-8c02-9ceb7021a3ad",
+    "name": "Carfax set distance to unlimited + scroll",
+    "commands": [{
+      "id": "34f1d8af-2d4f-4746-818f-c91d14b6a7ae",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.carfax.com/Used-Ford-Mustang-Mach-E-Atlanta-GA_w9809_c16158",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b1d0100-5918-4f93-950c-b2c6822a3020",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b62cfca-afdc-4f6b-8816-e988044fddfc",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,156)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "953bf78c-7af2-4923-9091-329a58043a57",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion > div:nth-child(1) .accordion_header",
+      "targets": [
+        ["css=.accordion > div:nth-child(1) .accordion_header", "css:finder"],
+        ["xpath=//div[@id='srp-filter-container']/div[2]/div[3]/div[2]/div/details/summary", "xpath:idRelative"],
+        ["xpath=//summary", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8d9af61-90de-43f1-883b-f6813693f3dd",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='srp-filter-container']/div[2]/div[3]/div[2]/div/details/div/div/div/div/select",
+      "targets": [
+        ["id=:r0:", "id"],
+        ["css=#\\3Ar0\\3A", "css:finder"],
+        ["xpath=//select[@id=':r0:']", "xpath:attributes"],
+        ["xpath=//div[@id='srp-filter-container']/div[2]/div[3]/div[2]/div/details/div/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f0878f4-38ae-4b3c-a05d-83ff382e5279",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1414)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "178850fd-b190-440a-a357-f1600d212e4d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,12100)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a79cb595-e375-43a1-b219-d78bce1db8c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cfx-icon__chevronRight path",
+      "targets": [
+        ["css=.cfx-icon__chevronRight path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6975b3f2-b3b6-44e3-8cfe-c768c8829473",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1449.199951171875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc3464ad-f613-4c95-9a31-5d2147c82066",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cfx-icon__chevronRight",
+      "targets": [
+        ["css=.cfx-icon__chevronRight", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "444120a5-951b-42e2-9d9f-2526e4a51648",
+    "name": "test2",
+    "commands": [{
+      "id": "3fe03d4b-4ff3-461e-8bfb-31de9e036ce3",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.carfax.com/Used-Ford-Mustang-Mach-E-Atlanta-GA_w9809_c16158",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1372b816-7e89-4b8e-9113-de81544e56c1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e75f0aa2-9e82-45d3-8f39-5fc47c32e562",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion > div:nth-child(1) .accordion_header",
+      "targets": [
+        ["css=.accordion > div:nth-child(1) .accordion_header", "css:finder"],
+        ["xpath=//div[@id='srp-filter-container']/div[2]/div[3]/div[2]/div/details/summary", "xpath:idRelative"],
+        ["xpath=//summary", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39d8d668-ed47-4ad1-b422-c0089c6292a8",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='srp-filter-container']/div[2]/div[3]/div[2]/div/details/div/div/div/div/select",
+      "targets": [
+        ["id=:r0:", "id"],
+        ["css=#\\3Ar0\\3A", "css:finder"],
+        ["xpath=//select[@id=':r0:']", "xpath:attributes"],
+        ["xpath=//div[@id='srp-filter-container']/div[2]/div[3]/div[2]/div/details/div/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c8019e8-507d-4854-bd63-7643a24e90ed",
+      "comment": "",
+      "command": "select",
+      "target": "xpath=//div[@id='srp-filter-container']/div[2]/div[3]/div[2]/div/details/div/div/div/div/select",
+      "targets": [],
+      "value": "label=50"
+    }, {
+      "id": "1de146b6-2e45-4a09-9e2c-aa1765cf022c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='srp-filter-container']/div[2]/div[3]/div[2]/div/details/div/div/div/div/select",
+      "targets": [
+        ["id=:r0:", "id"],
+        ["css=#\\3Ar0\\3A", "css:finder"],
+        ["xpath=//select[@id=':r0:']", "xpath:attributes"],
+        ["xpath=//div[@id='srp-filter-container']/div[2]/div[3]/div[2]/div/details/div/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9dfac177-4c18-42a5-a17c-2a1e89b37974",
+      "comment": "",
+      "command": "select",
+      "target": "xpath=//div[@id='srp-filter-container']/div[2]/div[3]/div[2]/div/details/div/div/div/div/select",
+      "targets": [],
+      "value": "label=Unlimited"
+    }]
+  }],
+  "suites": [{
+    "id": "dd838bee-bfc8-4ca7-a894-0decbe57d454",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.carfax.com/", "https://www.carfax.com/Used-Ford-Mustang-Mach-E-Atlanta-GA_w9809_c16158"],
+  "plugins": []
+}
